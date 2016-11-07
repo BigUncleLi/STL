@@ -1,0 +1,9 @@
+# exe file
+*.exe
+
+# Debug
+Debug/
+
+# suo file
+.suo
+*.suo
