@@ -4,9 +4,7 @@
 #include "stdafx.h"
 
 int main(){
-	Point *p = new Point();
-	p->show();
-	delete p;
+	cout << "Hello world !"
     return 0;
 }
 
