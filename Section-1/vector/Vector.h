@@ -9,16 +9,16 @@ typedef int Rank;
 template <typename T> class Vector {
 protected:
 	// not for client
-	Rank size; // real size
-	int capacity; // total capacity
+	Rank _size; // real size
+	int _capacity; // total capacity
 	T* _elem; // pointer of element
 
 	void expand();// expand capacity
 public:
 	// constructor
 	Vector(int c = DEFAULT_CAPACITY, int s = 0, T t = 0); // capacity = default_capacity, size = 0, t = 0
-	Vector(T const* A, Rank n);
-	Vector(T const* A, Rank lo, Rank hi);
+	Vector(T const* a, Rank n);
+	Vector(T const* a, Rank lo, Rank hi);
 	Vector(Vector<T> const & v);
 	Vector(Vector<T> const & v, Rank lo, Rank hi);
 
