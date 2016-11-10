@@ -15,6 +15,9 @@
     <Filter Include="头文件\declaration">
       <UniqueIdentifier>{a34c4c1e-7a9b-4b0b-99e2-986b1eb433b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\constructor">
+      <UniqueIdentifier>{da4781db-4482-4131-9a4f-1b2fd579d2c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -25,6 +28,9 @@
     </ClInclude>
     <ClInclude Include="vector_implement.h">
       <Filter>头文件\declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_constructor.h">
+      <Filter>头文件\constructor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
