@@ -4,7 +4,7 @@
 // Rank is the same as int
 typedef int Rank;
 // default capacity is 3
-#define DEFAULT_CAPACITY = 3;
+#define DEFAULT_CAPACITY 3
 
 template <typename T> class Vector {
 protected:
@@ -13,6 +13,7 @@ protected:
 	int _capacity; // total capacity
 	T* _elem; // pointer of element
 
+	void copyFrom(T const * a, Rank lo, Rank hi);
 	void expand();// expand capacity
 public:
 	// constructor
