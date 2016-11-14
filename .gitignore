@@ -7,3 +7,6 @@ Debug/
 # suo file
 .suo
 *.suo
+
+# test project
+test/
