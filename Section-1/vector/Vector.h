@@ -30,10 +30,15 @@ public:
 	Rank size() const { return _size; }
 	bool empty() const { return !_size; }
 
+	T get(Rank r) const { return _elem[r]; }
+	T& operator[] (Rank r) const;
+
 	Rank find(T const & e, Rank lo, Rank hi); // find the element e between lo and hi
 	Rank find(T const & e) { return find(e, 0, _size); } // find the element in total vector
 
 	// write-only
+	void put(Rank r, T const & e) { _elem[r] = e; }
+
 	Rank insert(Rank r, T const & e); // insert e into r place
 	Rank insert(T const & e) { return insert(_size, e); } // insert at the end of vector
 	
