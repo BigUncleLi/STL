@@ -7,3 +7,4 @@
 
 #include "vector_insert.h"
 #include "vector_toString.h"
+#include "vector_find.h"

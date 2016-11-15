@@ -10,5 +10,7 @@ int main(){
 	v.toString();
 	v.insert(2, 6);
 	v.toString();
+	cout << "result of finding 1 is : " << v.find(1) << endl;
+	cout << "result of finding -1 is : " << v.find(-1) << endl;
     return 0;
 }

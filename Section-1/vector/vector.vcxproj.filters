@@ -21,6 +21,9 @@
     <Filter Include="头文件\insert">
       <UniqueIdentifier>{88a46cd8-b76b-484e-bdc5-87cb05bf0a5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\find">
+      <UniqueIdentifier>{7944c269-56c5-48f9-9369-b65894b33e52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -46,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="vector_toString.h">
       <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_find.h">
+      <Filter>头文件\find</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
