@@ -39,7 +39,7 @@ public:
 	// write-only
 	void put(Rank r, T const & e) { _elem[r] = e; }
 
-	Rank insert(Rank r, T const & e); // insert e into r place
+	Rank insert(Rank r, T const & e); // insert e into r rank place
 	Rank insert(T const & e) { return insert(_size, e); } // insert at the end of vector
 	
 	int remove(Rank lo, Rank hi); // remove all element between lo and hi

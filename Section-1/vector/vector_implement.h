@@ -4,3 +4,5 @@
 #include "vector_constructor.h"
 #include "vector_expand.h"
 #include "vector_bracket.h"
+
+#include "vector_insert.h"
