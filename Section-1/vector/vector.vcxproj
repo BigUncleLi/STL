@@ -144,9 +144,12 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="vector.h" />
+    <ClInclude Include="vector_bracket.h" />
     <ClInclude Include="vector_constructor.h" />
     <ClInclude Include="vector_expand.h" />
     <ClInclude Include="vector_implement.h" />
+    <ClInclude Include="vector_insert.h" />
+    <ClInclude Include="vector_toString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

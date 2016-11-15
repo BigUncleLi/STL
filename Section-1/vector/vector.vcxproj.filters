@@ -18,6 +18,9 @@
     <Filter Include="头文件\constructor">
       <UniqueIdentifier>{da4781db-4482-4131-9a4f-1b2fd579d2c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\insert">
+      <UniqueIdentifier>{88a46cd8-b76b-484e-bdc5-87cb05bf0a5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -33,6 +36,15 @@
       <Filter>头文件\constructor</Filter>
     </ClInclude>
     <ClInclude Include="vector_expand.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bracket.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_insert.h">
+      <Filter>头文件\insert</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_toString.h">
       <Filter>头文件\other</Filter>
     </ClInclude>
   </ItemGroup>

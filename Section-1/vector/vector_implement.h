@@ -6,3 +6,4 @@
 #include "vector_bracket.h"
 
 #include "vector_insert.h"
+#include "vector_toString.h"
