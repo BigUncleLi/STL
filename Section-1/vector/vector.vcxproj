@@ -146,6 +146,7 @@
     <ClInclude Include="vector.h" />
     <ClInclude Include="vector_bracket.h" />
     <ClInclude Include="vector_constructor.h" />
+    <ClInclude Include="vector_remove.h" />
     <ClInclude Include="vector_expand.h" />
     <ClInclude Include="vector_find.h" />
     <ClInclude Include="vector_implement.h" />

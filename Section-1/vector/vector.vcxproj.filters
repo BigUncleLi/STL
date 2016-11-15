@@ -24,6 +24,9 @@
     <Filter Include="头文件\find">
       <UniqueIdentifier>{7944c269-56c5-48f9-9369-b65894b33e52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\delete">
+      <UniqueIdentifier>{9d14d6ef-4ddb-4fd7-8d8f-cf3f138afcf9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -52,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="vector_find.h">
       <Filter>头文件\find</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_remove.h">
+      <Filter>头文件\delete</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
