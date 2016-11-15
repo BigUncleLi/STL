@@ -32,6 +32,9 @@
     <ClInclude Include="vector_constructor.h">
       <Filter>头文件\constructor</Filter>
     </ClInclude>
+    <ClInclude Include="vector_expand.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

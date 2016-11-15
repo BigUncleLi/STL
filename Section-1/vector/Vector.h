@@ -44,5 +44,6 @@ public:
 
 	// traverse
 
-
+	// other
+	void toString();
 };

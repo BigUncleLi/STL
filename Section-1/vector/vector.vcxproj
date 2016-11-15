@@ -145,6 +145,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="vector.h" />
     <ClInclude Include="vector_constructor.h" />
+    <ClInclude Include="vector_expand.h" />
     <ClInclude Include="vector_implement.h" />
   </ItemGroup>
   <ItemGroup>
