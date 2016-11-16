@@ -9,3 +9,4 @@
 #include "vector_remove.h"
 #include "vector_toString.h"
 #include "vector_find.h"
+#include "vector_deduplicate.h"

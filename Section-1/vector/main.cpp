@@ -17,5 +17,9 @@ int main(){
 	v.remove(2);
 	cout << "result of remove index of 2 is : " << endl;
 	v.toString();
+
+	v.deduplicate();
+	cout << "after deduplicate : " << endl;
+	v.toString();
     return 0;
 }
