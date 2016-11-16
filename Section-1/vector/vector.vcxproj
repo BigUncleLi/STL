@@ -153,6 +153,7 @@
     <ClInclude Include="vector_implement.h" />
     <ClInclude Include="vector_insert.h" />
     <ClInclude Include="vector_toString.h" />
+    <ClInclude Include="vector_uniquify.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

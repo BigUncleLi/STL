@@ -5,7 +5,7 @@
 #include "vector_implement.h"
 
 int main(){
-	Vector <int> v(3, 2, 1);
+	Vector<int> v(3, 2, 1);
 	cout << "v[1] : " << v[1] << endl;
 	v.toString();
 	v.insert(2, 6);
@@ -21,5 +21,12 @@ int main(){
 	v.deduplicate();
 	cout << "after deduplicate : " << endl;
 	v.toString();
+
+	Vector<int> orderedVector(3, 3, 1);
+	orderedVector.insert(2);
+	orderedVector.insert(3);
+	orderedVector.uniquify();
+	orderedVector.toString();
+
     return 0;
 }
