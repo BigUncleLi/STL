@@ -68,6 +68,15 @@
     <ClInclude Include="vector_uniquify.h">
       <Filter>头文件\deduplicate</Filter>
     </ClInclude>
+    <ClInclude Include="vector_search.h">
+      <Filter>头文件\find</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_binary.h">
+      <Filter>头文件\find</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_fibonacci.h">
+      <Filter>头文件\find</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

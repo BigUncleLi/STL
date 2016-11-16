@@ -14,3 +14,6 @@
 
 // ordered vector
 #include "vector_uniquify.h"
+#include "vector_search.h"
+#include "vector_search_binary.h"
+#include "vector_search_fibonacci.h"

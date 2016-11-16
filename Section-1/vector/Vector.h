@@ -7,7 +7,7 @@ typedef int Rank;
 #define DEFAULT_CAPACITY 3
 
 template <typename T> class Vector {
-protected:
+private:
 	// not for client
 	Rank _size; // real size
 	int _capacity; // total capacity
@@ -16,6 +16,10 @@ protected:
 	void copyFrom(T const * a, Rank lo, Rank hi);
 	void expand();// expand capacity
 	bool isSorted();
+
+	// search
+	Rank binarySearch(T const & e, Rank lo, Rank hi);
+	Rank fibonacciSearch(T const & e, Rank lo, Rank hi);
 
 	// sort
 	void bubbleSort(Rank lo, Rank hi);
