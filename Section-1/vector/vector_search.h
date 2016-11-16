@@ -3,7 +3,8 @@
 #include "vector.h"
 
 template <typename T> Rank Vector<T>::search(T const & e, Rank lo, Rank hi) {
-	return (rand() % 2) ? binarySearch(e, lo, hi) : fibonacciSearch(e, lo, hi);
+	//return (rand()% 2) ? binarySearch(e, lo, hi) : fibonacciSearch(e, lo, hi);
+	return binarySearch(e, lo, hi);
 }
 
 template <typename T> Rank Vector<T>::search(T const & e) {

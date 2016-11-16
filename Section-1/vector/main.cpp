@@ -25,6 +25,10 @@ int main(){
 	Vector<int> orderedVector(3, 3, 1);
 	orderedVector.insert(2);
 	orderedVector.insert(3);
+	orderedVector.toString();
+
+	cout << "ordered vector search 2 is : " << orderedVector.search(2) << endl;
+
 	orderedVector.uniquify();
 	orderedVector.toString();
 

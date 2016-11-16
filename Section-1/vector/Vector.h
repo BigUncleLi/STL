@@ -16,6 +16,7 @@ private:
 	void copyFrom(T const * a, Rank lo, Rank hi);
 	void expand();// expand capacity
 	bool isSorted();
+	Rank max(Rank r1, Rank r2);
 
 	// search
 	Rank binarySearch(T const & e, Rank lo, Rank hi);
