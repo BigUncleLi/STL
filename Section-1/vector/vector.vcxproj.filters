@@ -30,6 +30,9 @@
     <Filter Include="头文件\deduplicate">
       <UniqueIdentifier>{e8556c41-0bff-48e9-af71-5c2718c9733d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\sort">
+      <UniqueIdentifier>{2bd0f84f-1853-47f3-809b-c168dd5e2542}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -79,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="Fib.h">
       <Filter>头文件\find</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_sort_bubble.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_sort.h">
+      <Filter>头文件\sort</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

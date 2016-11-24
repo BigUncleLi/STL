@@ -17,3 +17,7 @@
 #include "vector_search.h"
 #include "vector_search_binary.h"
 #include "vector_search_fibonacci.h"
+
+// disordered vector -> ordered vector [sort]
+#include "vector_sort.h"
+#include "vector_sort_bubble.h"

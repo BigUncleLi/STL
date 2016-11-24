@@ -24,6 +24,8 @@ private:
 
 	// sort
 	void bubbleSort(Rank lo, Rank hi);
+	void bubbleSort();
+	bool bubble(Rank lo,Rank hi);
 	void mergeSort(Rank lo, Rank hi);
 	void selectionSort(Rank lo, Rank hi);
 	void quickSort(Rank lo, Rank hi);
@@ -62,6 +64,8 @@ public:
 	
 	int deduplicate(); // remove duplicated element into disordered vector
 	int uniquify(); // remove duplicated element into ordered vector
+
+	void sort(); // sort
 
 	// traverse
 

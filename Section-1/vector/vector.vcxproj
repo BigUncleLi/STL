@@ -142,6 +142,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="vector_sort.h" />
+    <ClInclude Include="vector_sort_bubble.h" />
     <ClInclude Include="Fib.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="vector.h" />

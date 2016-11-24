@@ -9,10 +9,16 @@ int main(){
 	cout << "v[1] : " << v[1] << endl;
 	v.toString();
 	v.insert(2, 6);
+	v.insert(2);
+	v.insert(-3);
 	v.toString();
 
 	cout << "result of finding 1 is : " << v.find(1) << endl;
 	cout << "result of finding -1 is : " << v.find(-1) << endl;
+
+	v.sort();
+	cout << "result of sort is : " << endl;
+	v.toString();
 
 	v.remove(2);
 	cout << "result of remove index of 2 is : " << endl;
@@ -30,6 +36,7 @@ int main(){
 	cout << "ordered vector search 2 is : " << orderedVector.search(2) << endl;
 
 	orderedVector.uniquify();
+	cout << "ordered vector after uniquify : "
 	orderedVector.toString();
 
     return 0;
