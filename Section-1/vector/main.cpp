@@ -48,7 +48,7 @@ int main(){
 
 	// test ordered vector uniquify
 	orderedVector.uniquify();
-	cout << "ordered vector after uniquify : "
+	cout << "ordered vector after uniquify : " << endl;
 	orderedVector.toString();
 
     return 0;

@@ -3,11 +3,12 @@
 #include "vector.h"
 
 template <typename T> void Vector<T>::toString() {
-	cout << "Size is : " << _size << endl;
-	cout << "Elements is : [";
+	cout << "Vector : [";
 	for (int i = 0; i < _size; i++) {
 		cout << _elem[i];
 		if (i != (_size - 1)) cout << ",";
 	}
-	cout << "]" << endl;
+	cout << "]" << " | ";
+
+	cout << "size is : " << _size << endl;
 }

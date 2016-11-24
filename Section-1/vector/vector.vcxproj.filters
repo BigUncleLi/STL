@@ -89,6 +89,9 @@
     <ClInclude Include="vector_sort.h">
       <Filter>头文件\sort</Filter>
     </ClInclude>
+    <ClInclude Include="vector_search_binary_improve.h">
+      <Filter>头文件\find</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

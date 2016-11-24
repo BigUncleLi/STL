@@ -20,6 +20,7 @@ private:
 
 	// search
 	Rank binarySearch(T const & e, Rank lo, Rank hi);
+	Rank binaryImproveSearch(T const & e, Rank lo, Rank hi);
 	Rank fibonacciSearch(T const & e, Rank lo, Rank hi);
 
 	// sort
