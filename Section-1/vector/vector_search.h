@@ -6,7 +6,8 @@ template <typename T> Rank Vector<T>::search(T const & e, Rank lo, Rank hi) {
 	//return (rand()% 2) ? binarySearch(e, lo, hi) : fibonacciSearch(e, lo, hi);
 	//return binarySearch(e, lo, hi);
 	//return fibonacciSearch(e, lo, hi);
-	return binaryImproveSearch(e, lo, hi);
+	//return binaryImproveSearch(e, lo, hi);
+	return interpolationSearch(e, lo, hi);
 }
 
 template <typename T> Rank Vector<T>::search(T const & e) {
