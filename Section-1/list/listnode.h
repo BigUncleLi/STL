@@ -1,5 +1,7 @@
 #pragma once
 
+#include "stdafx.h"
+
 typedef int Rank;
 #define ListNodePosi(T) ListNode<T>*
 

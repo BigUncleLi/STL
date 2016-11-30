@@ -1,4 +1,5 @@
 #pragma once
+#include "stdafx.h"
 #include "listnode.h"
 
 template <typename T> ListNodePosi(T) ListNode<T>::insertAsPred(T const & e) {
