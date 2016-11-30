@@ -146,7 +146,13 @@
     <ClInclude Include="listnode.h" />
     <ClInclude Include="list_constructor.h" />
     <ClInclude Include="list_copynodes.h" />
+    <ClInclude Include="list_deduplicate.h" />
+    <ClInclude Include="list_destructor.h" />
+    <ClInclude Include="list_find.h" />
     <ClInclude Include="list_impelment.h" />
+    <ClInclude Include="list_insert.h" />
+    <ClInclude Include="list_operator.h" />
+    <ClInclude Include="list_remove.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="listnode_impelment.h" />
   </ItemGroup>

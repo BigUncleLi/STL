@@ -21,6 +21,18 @@
     <Filter Include="头文件\node">
       <UniqueIdentifier>{654918c0-2c8f-4afd-bb19-f3e6d437160b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\find">
+      <UniqueIdentifier>{4fe7b2b3-7c62-40e2-85e8-afb0ecdd1714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\insert">
+      <UniqueIdentifier>{d072b730-3e03-4eb3-90e8-04b920ee1823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\remove">
+      <UniqueIdentifier>{f5d2e815-a3c2-4667-99ed-a936598ef53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\deduplicate">
+      <UniqueIdentifier>{95502116-e5f0-4b23-b395-e517fef8520b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -51,6 +63,24 @@
     </ClInclude>
     <ClInclude Include="list_copynodes.h">
       <Filter>头文件\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="list_operator.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="list_find.h">
+      <Filter>头文件\find</Filter>
+    </ClInclude>
+    <ClInclude Include="list_insert.h">
+      <Filter>头文件\insert</Filter>
+    </ClInclude>
+    <ClInclude Include="list_remove.h">
+      <Filter>头文件\remove</Filter>
+    </ClInclude>
+    <ClInclude Include="list_destructor.h">
+      <Filter>头文件\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="list_deduplicate.h">
+      <Filter>头文件\deduplicate</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
