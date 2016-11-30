@@ -46,5 +46,11 @@
     <ClInclude Include="listnode_impelment.h">
       <Filter>头文件\node</Filter>
     </ClInclude>
+    <ClInclude Include="list_constructor.h">
+      <Filter>头文件\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="list_copynodes.h">
+      <Filter>头文件\constructor</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
