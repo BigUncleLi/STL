@@ -7,3 +7,4 @@
 
 #include "list_operator.h"
 #include "list_find.h"
+#include "list_insert.h"
