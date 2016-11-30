@@ -18,6 +18,9 @@
     <Filter Include="头文件\declaration">
       <UniqueIdentifier>{a0185277-d824-4d0b-a51b-4d1046530944}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\node">
+      <UniqueIdentifier>{654918c0-2c8f-4afd-bb19-f3e6d437160b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -35,7 +38,13 @@
       <Filter>头文件\declaration</Filter>
     </ClInclude>
     <ClInclude Include="list_impelment.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="listnode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="listnode_impelment.h">
+      <Filter>头文件\node</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

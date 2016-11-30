@@ -143,8 +143,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="list.h" />
+    <ClInclude Include="listnode.h" />
     <ClInclude Include="list_impelment.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="listnode_impelment.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
