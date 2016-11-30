@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector", "vector\vector.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{97D8DDFD-5AB5-4D9B-9283-5F5C4554A1BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "list", "list\list.vcxproj", "{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{97D8DDFD-5AB5-4D9B-9283-5F5C4554A1BA}.Release|x64.Build.0 = Release|x64
 		{97D8DDFD-5AB5-4D9B-9283-5F5C4554A1BA}.Release|x86.ActiveCfg = Release|Win32
 		{97D8DDFD-5AB5-4D9B-9283-5F5C4554A1BA}.Release|x86.Build.0 = Release|Win32
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Debug|x64.ActiveCfg = Debug|x64
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Debug|x64.Build.0 = Debug|x64
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Debug|x86.Build.0 = Debug|Win32
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Release|x64.ActiveCfg = Release|x64
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Release|x64.Build.0 = Release|x64
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Release|x86.ActiveCfg = Release|Win32
+		{AE0990DC-BD82-492E-930B-BB3C5C5A6EC3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
