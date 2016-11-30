@@ -13,7 +13,7 @@ private:
 protected:
 	void init();
 	int clear();
-	void copyNode(ListNodePosi(T), int);
+	void copyNodes(ListNodePosi(T), int);
 	void merge(ListNodePosi(T)&, int, List<T>&, ListNodePosi(T), int);
 	void mergeSort(ListNodePosi(T)&, int);
 	void selectionSort(ListNodePosi(T), int);
@@ -22,8 +22,8 @@ protected:
 public:
 	// constructor
 	List() { init(); }
-	List(List<T> const & L);
 	List(List<T> const & L, Rank r, int n);
+	List(List<T> const & L);
 	List(ListNodePosi(T) p, int n);
 	
 	~List();
